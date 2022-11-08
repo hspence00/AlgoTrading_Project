@@ -45,7 +45,11 @@ class MeanRevBacktester():
     def get_data(self):
         ''' Imports the data from df.csv (source can be changed).
         '''
+<<<<<<< HEAD
         raw = pd.read_csv("df.csv", parse_dates = ['Date'], index_col = "Date")
+=======
+        raw = pd.read_csv("SPY.csv", parse_dates = ["Date"], index_col = "Date")
+>>>>>>> a9688349fe30ea431092f6e11c06a1cae697a29f
         raw = raw[self.symbol].to_frame().dropna()
         raw = raw.loc[self.start:self.end]
         raw.rename(columns={self.symbol: "price"}, inplace=True)
