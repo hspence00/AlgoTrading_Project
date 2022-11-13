@@ -30,3 +30,4 @@ The module was edited to fit our particular trading strategy and api data pulled
 # Trading Strategy (Bollinger Bands)
 The strategy starts with a rolling SMA and an upper and lower bounds that is 'n' standard deviations from the mean which is the SMA. This strategy is referred to as the Bollinger Band Trading strategy. Since 90% of the trading activity happens within the range, traders use the prices position within the bands to predict price movement. It is also used to find a "Squeeze" in the market. 
 
+# Performance Review
